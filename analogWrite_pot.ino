@@ -23,8 +23,8 @@ void loop()
 
   val_b = map(val1, 0, 1023, 0, 255);
     
-  Serial.print("valor led: ");
-  Serial.println(val_b);
+  //Serial.print("valor led: ");
+  //Serial.println(val_b);
 
   analogWrite(led_b, val_b);
 
